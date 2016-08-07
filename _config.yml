@@ -53,9 +53,6 @@ menu:
 widgets:
 - category
 - tag
-- links
-- rss
-## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
 #### RSS
