@@ -1,6 +1,6 @@
 # Site settings
 title: fuxiao511
-email: wliang0371@gmail.com
+email: fuxiao511@gmail.com
 description: Source of me.
 localurl: "" # the subpath of your site, e.g. /blog/
 url: http://fuxiao511.github.io # the base hostname & protocol for your site
@@ -11,7 +11,7 @@ github_username: fuxiao511
 
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day
+permalink: /:categories/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
@@ -92,9 +92,6 @@ toc:
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
-#### Links
-links:
-  tcOops's Blog: http://spacenx.pw/
 
 excerpt_separator: <!--more-->
 
@@ -107,6 +104,3 @@ disqus_shortname: fuxiao511    ## e.g. wuchong   your disqus short name.
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
 totop: true           ## if you want to scroll to top in every post set the value to true
 
-
-gems:
- - jemoji
