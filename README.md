@@ -12,6 +12,9 @@
 
 配置
 ------------------------------------
+yum install gem
+yum install ruby-devel
+gem install jekyll bundler jekyll-paginate
 
 `LessOrMore`项目需要配置的只有一个文件`_config.yml`，打开之后按照如下进行配置。
 
