@@ -1,4 +1,2 @@
-_site/
-.sass-cache/
-.idea
-.idea/
+_site
+.sass-cache

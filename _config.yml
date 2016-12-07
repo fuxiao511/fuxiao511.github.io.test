@@ -1,62 +1,37 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+name: Less Or More
+email: luoyan35714@126.com
+author: Freud Kang
+url: http://www.hifreud.com
+resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/luoyan35714/
+baseurl: "/LessOrMore"
+description: Actually, less is more!
+meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
 
-# Google webmaster tools
-google_verify:
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+github_username: luoyan35714
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : luoyan35714
+    disqus :
+        short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
