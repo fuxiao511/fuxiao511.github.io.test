@@ -9,17 +9,6 @@
 + 感谢[Solar](https://github.com/mattvh/solar-theme-jekyll)的原作者[Matt Harzewski](http://www.webmaster-source.com/)，在`2014.11`-`2016.09`的两年间，我的博客选用了此样式模版
 
 
-使用
-====================================
-
-下载
-------------------------------------
-
-使用git从[LessOrMore](https://github.com/luoyan35714/LessOrMore.git)主页下载项目
-
-``` bash
-git clone https://github.com/luoyan35714/LessOrMore.git
-```
 
 配置
 ------------------------------------
@@ -84,14 +73,6 @@ jekyll server
 打开浏览器并输入URL`http://localhost:4000/`,回车。
 
 
-为什么重复造轮子
-====================================
-
-很明显，我在重复造轮子。在13年接触到GIT，14年末接触到Jekyll，然后搭建了自己的博客，当时是选用了[JekyllThemes](http://jekyllthemes.org/)上的[Solar](https://github.com/mattvh/solar-theme-jekyll)主题，一直到现在。不过中间一直感觉页面风格还是偏暗，阅读不方便。并且有一些小的细节做的不是很好。在页面的跨平台浏览上有一些瑕疵。并且不区分一级标题和二级标题，导致没有重点强调。诸如此类，用了2年，用的越多，越发吃力，中间就一直在寻找新的能够让我一眼认定的主题。
-
-虽然设计好看的主题很多。但是真正适合拿来做博客的却不多。中间一直没有找到合适的主题。直到有一天看到Less官网的主题之后，豁然觉得这就是我的博客想要的样子。简单而又不平凡。所以就决定了要把博客迁移到这个主题，然后拿了两天晚上来把这个主题做出来。
-
-重复造了轮子，但是这个是迄今为止自己觉得最适合我的博客的轮子，所以是值得的！
 
 关于作者
 ====================================
@@ -108,8 +89,8 @@ jekyll server
 支付宝
 ----------------
 
-<img src="/styles/images/zhifubao.PNG" alt="支付宝二维码付款给Freud" width="310" />
+<img src="/styles/images/zhifubao.png" alt="支付宝二维码付款给作者" width="310" />
 
 微信
 ----------------
-![微信二维码付款给Freud](/styles/images/weixin.png)
+![微信二维码付款给作者](/styles/images/weixin.png)
