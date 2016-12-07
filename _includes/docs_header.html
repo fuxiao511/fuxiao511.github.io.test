@@ -6,8 +6,10 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Post on {{ page.date | date: "%b %d, %Y" }} by <a href="/about">{{ site.author }}</a> 
                     {% if page.categories != null %}
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{page.categories}}</a>  /
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ '/categories/' | prepend: site.baseurl }}#{{page.categories}}-ref">{{page.categories}}</a> 
+                    {% if page.tag != null %} /
         <a href="{{ '/tag/' | prepend: site.baseurl }}#{{page.tag}}-ref">{{page.tag}}</a>
+                    {% endif %}
                     {% endif %}
                     </p>
 		
