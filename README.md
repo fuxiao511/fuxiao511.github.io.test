@@ -89,8 +89,9 @@ jekyll server
 支付宝
 ----------------
 
-<img src="/styles/images/zhifubao.png" alt="支付宝二维码付款给作者" width="310" />
+<img src="/styles/images/zhifubao.png" alt="支付宝二维码付款给作者" width="384" />
 
 微信
 ----------------
-![微信二维码付款给作者](/styles/images/weixin.png)
+
+<img src="/styles/images/weixin.png" alt="支付宝二维码付款给作者" width="384" />
