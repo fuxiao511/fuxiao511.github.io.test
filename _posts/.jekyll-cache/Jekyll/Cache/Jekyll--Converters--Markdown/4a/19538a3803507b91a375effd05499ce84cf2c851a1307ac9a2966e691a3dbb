@@ -1,0 +1,25 @@
+I"�<ul id="markdown-toc">
+  <li><a href="#cgroup" id="markdown-toc-cgroup">cgroup</a>    <ul>
+      <li><a href="#test" id="markdown-toc-test">test</a></li>
+      <li><a href="#test2" id="markdown-toc-test2">test2</a></li>
+    </ul>
+  </li>
+  <li><a href="#cgroup-1" id="markdown-toc-cgroup-1">cgroup</a></li>
+</ul>
+
+<h1 id="cgroup">cgroup</h1>
+
+<h2 id="test">test</h2>
+<h2 id="test2">test2</h2>
+
+<h1 id="cgroup-1">cgroup</h1>
+
+<p>cgroup is largely composed of two parts - the core and controllers. cgroup core is primarily responsible for hierarchically organizing processes.  A cgroup controller is usually responsible for distributing a specific type of system resource along the hierarchy although there are utility controllers which serve purposes other than resource distribution.</p>
+
+<p>cgroup主要由两部分组成&amp;核心和控制器。cgroup core主要负责分层组织进程。cgroup控制器通常负责沿层次结构分发特定类型的系统资源，尽管有一些实用程序控制器用于除资源分配。</p>
+
+<p><img src="../assets/cgroup/cgroup代码架构图.png" alt="img" /></p>
+
+<p><img src="../assets/cgroup/cgroups层级结构示意图.png" alt="cgroups层级结构示意图" /></p>
+
+:ET
