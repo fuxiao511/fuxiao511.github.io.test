@@ -3,8 +3,8 @@ layout: post
 title:  cgroup
 date:   2022-10-03 16:11:00 +0800
 categories: cgroup
-tag: cgroup
-tags: [cgroup, linux]
+tags: [linux, cgroup]
+typora-root-url: ../
 ---
 
 
