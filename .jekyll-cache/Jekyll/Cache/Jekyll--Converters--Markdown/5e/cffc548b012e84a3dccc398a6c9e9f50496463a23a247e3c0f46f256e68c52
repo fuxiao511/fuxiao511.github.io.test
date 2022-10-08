@@ -1,0 +1,74 @@
+I"�<p>类图</p>
+
+<pre><code class="language-mermaid">classDiagram
+      Animal &lt;|-- Duck
+      Animal &lt;|-- Fish
+      Animal &lt;|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+</code></pre>
+
+<p>顺序图</p>
+<pre><code class="language-mermaid">sequenceDiagram
+    Alice-&gt;&gt;John: Hello John, how are you?
+    John--&gt;&gt;Alice: Great!
+
+
+</code></pre>
+
+<p>上下图</p>
+<pre><code class="language-mermaid">graph TB;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+</code></pre>
+<p>左右图</p>
+<pre><code class="language-mermaid">graph LR;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+</code></pre>
+
+<p>状态图</p>
+<pre><code class="language-mermaid">stateDiagram
+    [*] --&gt; s1
+    s1 --&gt; [*]
+</code></pre>
+
+<p>饼图</p>
+<pre><code class="language-mermaid">pie
+    title Key elements in Product X
+    "Calcium" : 42.96
+    "Potassium" : 50.05
+    "Magnesium" : 10.01
+    "Iron" :  5
+</code></pre>
+
+<p>甘特图</p>
+<pre><code class="language-mermaid">gantt
+    title 工作计划
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2020-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2020-01-12  , 12d
+    another task      : 24d
+</code></pre>
+
+:ET

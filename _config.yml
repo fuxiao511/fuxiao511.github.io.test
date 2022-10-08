@@ -12,7 +12,8 @@ motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
 
 #permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: /:title/
 paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
